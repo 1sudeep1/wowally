@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nt {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    animation: ntt 0.5s;
+    background: rgb(185, 203, 211) !important;
+    z-index: 3 !important;
+}
+
+@keyframes ntt {
+    0% {
+        transform: translateY(-200px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (min-width:0) and (max-width:576px) {
+    .carousel-caption {
+       
+      
+        text-align: left !important;
+        
+        left: 34px !important;
+        top: 45% !important;
+        width: 350px !important;
+    }
+    .carousel-title {
+        font-size: 23px !important;
+    }
+
+    .carousel-body {
+        font-size: 16px !important;
+    }
+  
+    .nt {
+        display: none;
+    }
+
+    .title {
+        width: 100% !important;
+    }
+
+    .cont {
+        width: 100% !important;
+    }
+
+    .foot {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foot li {
+        border: none !important;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    .carousel-caption {
+        width: 100%;
+        left: 0; top:47%;
+        text-align: left;
+        margin-bottom: 0%; 
+    }
+    .carousel-title {
+        font-size: 23px !important;
+    }
+
+    .carousel-body {
+        font-size: 16px !important;
+    }
+
+    .cc {
+        margin-left: -60px;
+    }
+
+    .title {
+        margin: 10px 0;
+    }
+}

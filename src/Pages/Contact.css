@@ -1,0 +1,16 @@
+.form-control{
+    width: 50%;
+}
+.contat{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+@media (max-width:987px) {
+    .contat{
+        margin-top: 2%;
+        margin-bottom: 9%;
+    }
+    .cbtn{
+        bottom: -20%;
+    }
+}

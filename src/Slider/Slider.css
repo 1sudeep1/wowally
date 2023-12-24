@@ -1,0 +1,31 @@
+.slider{
+    background:#F8F9FA;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    left: 50%; top:0;
+    width: 550px;
+    text-align: left;
+}
+.carousel-caption h5{
+    font-size: 32px;
+    font-weight: 700;
+    color: #283764;
+}
+.carousel-caption p{
+    color:rgba(0, 0, 0, 0.719);
+    font-size: 18px; font-weight: 400;
+}
+.btn{
+    margin-top: 55%;
+    background: #283764;
+    color: white;
+    /* margin-left: 70%; */
+}
+.btn:hover{
+    background: blue;
+    color: white;
+}

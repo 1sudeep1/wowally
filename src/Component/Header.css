@@ -1,0 +1,23 @@
+.form{
+    position: relative;
+    gap:20px;
+    align-items: center;
+}
+.searchicon{
+    position:absolute;
+    right: 30px; top:8px;
+}
+.form input{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.t1{
+    color: #283764;
+}
+.t2{
+    color: #78C2C2;
+}
+nav{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.26);
+}
